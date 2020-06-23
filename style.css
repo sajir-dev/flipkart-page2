@@ -1,0 +1,435 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.white{
+    color:white;    
+}
+
+ul{
+    list-style-type: none;
+}
+
+h4 {
+    font-size: large;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+
+input {
+    margin-right: 8px;
+}
+
+h5 {
+    color: #333;
+    font-size: 14px;
+}
+
+.topnav-wrapper {
+    background-color: #2874f0;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    height:60px ;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.mobile-topnav {
+    display: none;
+}
+
+.topnav ul {
+    display: flex;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.topnav li {
+    margin: 8px;
+    align-self: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    background-color: white;
+}
+
+.dropdown-content ul{
+    display: block !important;
+    box-shadow: none !important;
+    min-width: 160px;
+}
+
+.dropdown-content .head {
+    font-size: 13px;
+    color: black;
+}
+
+.dropdown-content li {
+    font-size:12px;
+    color: #555;
+}
+
+.logo {
+    background-image: url("img/flipkart-plus_4ee2f9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: transparent;
+    width: 70px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 300px;
+    height: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 5px #777;
+}
+
+input{
+    border: none;
+}
+
+input::placeholder{
+    font-weight: 500;
+}
+
+.topnav button {
+    height: 30px;
+    width: 75px;
+    border: none;
+    color: #2874f0;
+    font-weight: 600;
+}
+
+.mobile-secondnav {
+    display: none;
+}
+
+.secondnav {
+    font-weight: 600;
+    color: #333;
+}
+
+.secondnav ul{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 5px #777;
+    font-size: 16px;
+}
+
+.secondnav li {
+    display: block;
+    padding: 8px;
+}
+
+section {
+    display: flex;
+    background-color: #ddd;
+}
+
+.sidebar {
+    width: 25%;
+    margin: 7.5px 4px;
+    display: block;
+}
+
+.sidebar-ad {
+    background-color: white;
+    margin-bottom: 8px;
+}
+
+.sidebar .filters {
+    background-color: white;
+}
+
+.sidebar-ad .img-container{
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.sidebar-ad img {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.sidebar-ad p {
+    font-size: 12px;
+    padding: 0 0 10px 20px;
+}
+
+.sidebar h4{
+    padding-top: 10px;
+}
+
+.categories{
+    margin: 10px auto 0 20px;
+}
+
+.categories>*{
+    padding-top: 10px;
+    color: #777;
+}
+
+.categories .active {
+    color: #333;
+    font-weight: 600;
+}
+
+.filter-price {
+    padding-left: 20px;
+    color: #777;
+}
+
+.filter-price>* {
+    padding-top: 10px;
+}
+
+.filter-price input {
+    box-sizing: border-box;
+    width: 80%;
+}
+
+.assured{
+    padding:20px;
+}
+
+.brands {
+    padding-left:20px;
+}
+
+.brands>*{
+    padding-top: 10px;
+    color: #777;
+}
+
+.brands .more {
+    color: #2874f0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-area {
+    width: 80%;
+    margin: 7.5px 4px;
+    background-color: white;
+}
+
+.main-area .path {
+    padding:20px 0 0 20px;
+    font-size: 10px;
+    color: #777;
+}
+
+.sort {
+    display: flex;
+    padding-left: 15px;
+}
+
+.sort li {
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.sortby {
+    font-weight: 600;
+}
+
+.sort .active {
+    font-weight: 600;
+    border-bottom: 1px solid#2874f0;
+    color: #2874f0;
+}
+
+.item-description{
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-title h4 span{
+    padding:20px 0 0 0;
+    font-size: 10px;
+    color: #777;
+}
+
+.item{
+    /* height: 300px; */
+    width: 22%;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+.item-wise-description{
+    background-color: white;
+    height: 150px;
+    align-self: flex-end;
+    transition: .3s;
+}
+
+.item-wise-description:hover{
+    background-color: white;
+    margin-top: -15px;
+}
+
+.item-img{
+    max-height: 600px;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.item h4 {
+    padding: 4px;
+}
+
+.item span img{
+    width: 70px;
+    top: 0;
+}
+
+.item .gold-coin img{
+    width: 14px;
+}
+
+.brand-name{
+    padding: 10px 0 5px 0;
+    color: #777;
+    font-weight: 600;
+}
+
+.item-description img {
+    width: 100%;
+}
+
+.item .crossed {
+    color: #777;
+    text-decoration: line-through;
+}
+
+.item .offer-percent {
+    color: green;
+    font-size: .75em;
+}
+
+@media screen and (max-width:991px){
+    
+    .sidebar{
+        display: none;
+    }
+
+    h4{
+        font-size: 30px;
+    }
+
+    .main-area {
+        width: 100%;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    .mobile-topnav{
+        display: flex;
+        justify-content: space-between;
+        font-size: 2em;
+    }
+
+    .mobile-topnav ul{
+        display: inline-flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .mobile-topnav li {
+        height: 50px;
+        margin: 10px;
+    }
+
+    .secondnav {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+    
+    ul.top-rightnav {
+        display: none;
+    }
+
+    .item-description {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .item{
+        width: 47%;
+        height: 800px;
+    }
+
+    .item-img {
+        height: 600px;
+    }
+
+    .mobile-secondnav{
+        display: block;
+    }
+
+    .mobile-secondnav ul{
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .mobile-secondnav li {
+        display: inline-flex;
+        font-size: 14px;
+    }
+
+    .main-area .path {
+        font-size: 25px;
+    }
+
+    .category-title {
+        font-size: 20px;
+    }
+
+    .category-title h4 span{
+        font-size: 16px;
+    }
+
+    .sort li{
+        font-size: 16px;
+    }
+
+    .item {
+        font-size: 22px;
+    }
+
+}
+
+
+
+
+
